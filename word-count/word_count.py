@@ -1,9 +1,4 @@
-"""
-def count_words(sentence):    
-    sentence.replace("\n","")
-    words = list(sentence.casefold().split())
-    return {x: words.count(x) for x in words}
-"""
+
 def count_words(sentence):    
     signs = "123456789abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ' "
     for x in sentence:
